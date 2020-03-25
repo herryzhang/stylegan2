@@ -1,0 +1,1 @@
+python run_training.py --num-gpus=3 --data-dir=stylegan2 --config=config-f --dataset=dataset --mirror-augment=true
