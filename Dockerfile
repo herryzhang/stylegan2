@@ -21,7 +21,3 @@ RUN rm -f ~/.pip/pip.conf && \
   echo "[global]" >> ~/.pip/pip.conf && \
   echo "trusted-host=10.93.238.51" >> ~/.pip/pip.conf && \
   echo "index-url=http://10.93.238.51/pypi/simple/" >> ~/.pip/pip.conf
-
-RUN pip install scipy==1.3.3 -i https://pypi.douban.com/simple
-RUN pip install requests==2.22.0 -i https://pypi.douban.com/simple
-RUN pip install Pillow==6.2.1 -i https://pypi.douban.com/simple
